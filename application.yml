@@ -3,13 +3,13 @@ spring:
     active: 
     - dev
 
-
+---
 spring: 
   profiles: dev		#开发
   application: 
     name: microservice-config-dev
 
-
+---
 spring: 
   profiles: test	#测试
   application: 
